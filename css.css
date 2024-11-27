@@ -1,0 +1,648 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+
+  <style>
+  
+body {background-image: linear-gradient(red, pink, pink)}
+h1   {color: #BBA53D; 
+    font-size: 500%; 
+    text-align: center; 
+    font-family: cursive}
+p    {color: green; 
+    display: block;
+    font-size: 250%; 
+    text-align: center;    
+    font-family: Apple Chancery, cursive;
+    position: relative;
+    bottom:50px}
+a {
+text-decoration:none
+}
+.pomoc
+{
+margin-left:50%;margin-right:50%
+}
+.circle-link:hover {
+      transform: scale(1.1); /* Slightly enlarge on hover */
+    }
+     span {
+      text-decoration: none;}
+.sklenice
+{
+  position: relative;
+top: 90px
+}  
+.circle{
+  text-decoration: none;
+  display: block;
+  color: white;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(94, 145, 94);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+  left: 250px
+
+  }  
+.circle-link:visited .circle {
+  background-color: red; /* Change to your desired color */
+}
+.circle2{
+display: block;
+  color: white;
+  height: 120px;
+  width: 120px;
+  background-color: rgb(119, 184, 154);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  top: 50px; /* 50px from the top of the page */
+  right: 600px; 
+  }
+  .circle2-link:visited .circle2 {
+  background-color: red; 
+}
+.circle3{
+display: block;
+  color: white;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(119, 168, 141);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  left: 500px;
+  top: 200px;
+}
+  .circle3-link:visited .circle3 {
+  background-color: red; 
+}
+.circle4{
+display: block;
+  color: white;
+  height: 110px;
+  width: 110px;
+  background-color: rgb(167, 214, 171);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
+  right: 200px
+  
+}
+  .circle4-link:visited .circle4 {
+  background-color: red; 
+}
+.circle5{
+display: block;
+  color: white;
+  height: 60px;
+  width: 60px;
+  background-color: rgb(113, 181, 101);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:525px;
+  right:90px
+}
+  .circle5-link:visited .circle5 {
+  background-color: red; 
+}
+.circle6{
+display: block;
+  color: white;
+  height: 130px;
+  width: 130px;
+  background-color: rgb(102, 138, 98);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 1700px;
+  right: 900px
+  
+  }  
+    .circle6-link:visited .circle6 {
+  background-color: red; 
+}
+.circle7{
+display: block;
+  color: white;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(54, 194, 138);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 1750px;
+  left: 1000Px
+  }  
+    .circle7-link:visited .circle7 {
+  background-color: red; 
+}
+.circle8{
+display: block;
+  color: white;
+  height: 140px;
+  width: 140px;
+  background-color: rgb(100, 156, 116);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 1700px;
+  right:  500px
+  }  
+    .circle8-link:visited .circle8 {
+  background-color: red; 
+}
+.circle9{
+display: block;
+  color: white;
+  height: 65px;
+  width: 65px;
+  background-color: rgb(94, 145, 94);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 730px;
+  left: 80px
+  }  
+    .circle9-link:visited .circle9 {
+  background-color: red; 
+}
+.circle10{
+display: block;
+  color: white;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(103, 199, 129);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 2050px;
+  left: 650px
+  }  
+    .circle10-link:visited .circle10 {
+  background-color: red; 
+}
+.circle11{
+display: block;
+  color: white;
+  height: 90px;
+  width: 90px;
+  background-color: rgb(66, 120, 59);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 2050px;
+  right:800px
+  }  
+      .circle11-link:visited .circle11 {
+  background-color: red; 
+}
+.circle12{
+display: block;
+  color: white;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(66, 120, 59);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:2400px;
+  left: 500px
+  }  
+      .circle12-link:visited .circle12 {
+  background-color: red; 
+}
+.circle13{
+display: block;
+  color: white;
+  height: 70px;
+  width: 70px;
+  background-color: rgb(138, 184, 129);
+  border-radius: 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:1000px;
+  right:10px
+  }  
+      .circle13-link:visited .circle13 {
+  background-color: red; 
+}
+
+  .circle14{
+  display: block;
+  color: white;
+  height: 140px;
+  width: 140px;
+  background-color: rgb(67, 145, 57);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 2300px;
+  right: 250px
+  } 
+        .circle14-link:visited .circle14 {
+  background-color: red; 
+}
+.circle15{
+display: block;
+  color: white;
+  height: 90px;
+  width: 90px;
+  background-color: rgb(94, 145, 94);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 2725px;
+  left:800px
+  }  
+        .circle15-link:visited .circle15 {
+  background-color: red; 
+}
+.circle17{
+display: block;
+  color: white;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(144, 196, 137);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 2700px;
+  right: 400px
+  }  
+        .circle17-link:visited .circle17 {
+  background-color: red; 
+}
+.circle16{
+display: block;
+  color: white;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(94, 145, 94);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 2650px;
+  left: 350px
+  }  
+        .circle16-link:visited .circle16 {
+  background-color: red; 
+}
+.circle18{
+display: block;
+  color: white;
+  height: 120px;
+  width: 120px;
+  background-color: rgb(94, 145, 94);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 2900px;
+  right: 1100px
+  }  
+        .circle18-link:visited .circle18 {
+  background-color: red; 
+}
+.circle19{
+display: block;
+  color: white;
+  height: 80px;
+  width: 80px;
+  background-color: rgb(123, 212, 142);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 2500px;
+  left: 30px
+  }  
+      .circle19-link:visited .circle19 {
+  background-color: red; 
+}
+.circle20{
+display: block;
+  color: white;
+  height: 120px;
+  width: 120px;
+  background-color: rgb(123, 212, 130);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:3100px;
+  right:10px
+}
+      .circle20-link:visited .circle20 {
+  background-color: red; 
+}
+.circle21{
+display: block;
+  color: white;
+  height: 140px;
+  width: 140px;
+  background-color: rgb(123, 212, 130);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:3400px;
+  left:1000px
+}
+      .circle21-link:visited .circle21 {
+  background-color: red; 
+}
+.circle22{
+display: block;
+  color: white;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(123, 212, 130);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:3500px;
+  right:750px
+}
+      .circle22-link:visited .circle22 {
+  background-color: red; 
+}
+.circle23{
+display: block;
+  color: white;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(123, 212, 130);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:3250px;
+  left:100px
+}
+      .circle23-link:visited .circle23 {
+  background-color: red; 
+}
+.circle24{
+display: block;
+  color: white;
+  height: 120px;
+  width: 120px;
+  background-color: rgb(123, 212, 130);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Apple Chancery, cursive;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:725px;
+  left:10px
+}
+      .circle24-link:visited .circle24 {
+  background-color: gold; 
+}
+      .oval2-link:visited .oval2 {
+  background-color: red; 
+}
+.trapezoid
+{
+display: block;
+border-bottom: 298px solid white;
+	border-left: 118px solid transparent;
+	border-right: 118px solid transparent;
+	height: 0;
+	width: 108px;
+    position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 48px
+}
+.trapezoidhalf
+{
+display: block;
+border-bottom: 300px solid black;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	height: 0;
+	width: 110px;
+    position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 350px
+}
+.rectangle
+{
+ height: 160px;
+  width: 108px;
+  background-color: white;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:644px
+}
+
+.rectangle2
+{
+ height: 150px;
+  width: 110px;
+  background-color: black;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  bottom:495px
+}
+
+.oval 
+{
+  height: 50px;
+  width: 350px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 325px
+  
+}
+.oval2
+{
+  height: 48px;
+  width: 345px;
+  background-color: rgb(119, 184, 154);
+  border-radius: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 275px
+  
+}
+.oval3
+{
+  height: 25px;
+  width: 130px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 820px
+}
+.oval4
+{
+  height: 23px;
+  width: 128px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 844px
+}
+.obdelnik
+{
+  height: 1000px;
+  width: 1000px;
+  background-color: black
+}
+</style>
+</head>
+
